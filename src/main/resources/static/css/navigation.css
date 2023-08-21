@@ -1,0 +1,117 @@
+:root {
+    --blue: #0053a0;
+    --white: #fff;
+    --dark-blue: rgb(0 63 122);
+  }
+
+html{
+    font-family: sans-serif;
+}
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue);
+    padding: 0em 6em;
+    font-size: 1em;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a{
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+.nav-element{
+    margin-left: 3em;
+}
+
+.nav-element:hover{
+cursor: pointer;
+}
+
+.nav-item{
+    padding: 2em;
+}
+
+.nav-element:hover .nav-item{
+    color: rgba(225, 225, 66, 0.995);
+}
+
+.nav-element .sub-menu ul li{
+    padding: 0.5em;
+}
+
+.nav-element .sub-menu ul li a{
+    padding: 0.5em;
+}
+
+.sub-menu a:hover{
+color: rgba(225, 225, 66, 0.995);
+}
+
+ .sub-menu{
+    display: none;
+}
+
+.nav-element:hover .sub-menu{
+display: block;
+background-color: var(--blue);
+border-radius: 4px;
+padding: 4px;
+position: absolute;
+top: 2.8em;
+}
+
+/* .helmets{
+    left: 8em;
+}
+
+.jackets{
+left: 16.4em;
+}
+
+.gloves{
+    left: 22em;
+} */
+
+
+.login-cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-cart li{
+    background-color: var(--dark-blue); 
+    margin: 0.6em 2em 0.6em 0em;
+    padding: 0.8em;
+    border-radius: 50%;
+    cursor: pointer;
+ }
+
+ .login-cart li:hover {
+  background-color: var(--white);
+ }
+
+ .login-cart li:hover a{
+    color: var(--dark-blue);
+ }
+
+.login-cart a{
+   color: var(--white);
+   font-size: 1em;
+}
+
+
+
+
+
