@@ -2,6 +2,10 @@
     --blue: #0053a0;
     --white: #fff;
     --dark-blue: rgb(0 63 122);
+    --grey: #e5e7eb;
+    --red: #ED1B2E;
+    --grey-hover: #c4c7cc;
+    --light-blue: #0063c0;
   }
 
 html{
@@ -14,7 +18,7 @@ html{
     align-items: center;
     justify-content: space-between;
     background-color: var(--blue);
-    padding: 0em 6em;
+    padding: 0 6em;
     font-size: 1em;
 }
 
@@ -70,19 +74,6 @@ padding: 4px;
 position: absolute;
 top: 2.8em;
 }
-
-/* .helmets{
-    left: 8em;
-}
-
-.jackets{
-left: 16.4em;
-}
-
-.gloves{
-    left: 22em;
-} */
-
 
 .login-cart{
     display: flex;
